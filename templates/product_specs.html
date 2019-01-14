@@ -1,0 +1,35 @@
+<!-- Product Specs Section  -->
+<div class="w-section section">
+    <div class="w-container">
+        <div class="section-title-group">
+            <h2 class="section-heading centered">Specifications</h2>
+            <div class="centered"><img src="{{main_product_photo.url}}">
+            </div>
+            <p>
+                {{#each attributes}}
+                    <strong>{{@key}}:</strong>
+                    {{#ifCond @key '==' 'Dielectric Strength'}}
+                        <br>
+                        {{#each this}}
+                            <span>{{@key}} - {{{this}}}</span>
+                            <br>    
+                        {{/each}}
+                    {{else ifCond @key '==' 'Dimensions'}}
+                        <span><a href="#schematics_section">See Drawings Below</a></span>
+                    {{else}}
+                        <span> {{{this}}}</span>   
+                    {{/ifCond}}
+                    <br>
+                {{/each}}
+                <strong>{{warranty.text}}:</strong>
+                <a href="{{warranty.url}}">2 Year Warranty</a>
+                <br>
+            </p>
+            <br>
+            <p>
+                {{product_description}}
+            </p>
+        </div>
+    </div>
+</div>
+<!-- END Product Specs Section  -->

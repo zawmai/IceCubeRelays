@@ -1,0 +1,56 @@
+{
+	"product_id": "CN0348",
+	"type": "relay",
+	"subType": "ice-cube",
+	"title": "CN0348",
+
+	"mainProductPhoto": {
+		"url": "https://www.temcocontent.com/images/switches/CN0346_to_CN0481/CN0348_main.jpg"
+	},
+
+	"productDescription": "TEMCo Industrial general purpose ice cube relays and sockets are backed by a 1 year no-questions-asked return policy and a 2 year warranty against manufacturing defects. That means you can purchase with the peace of mind that someone here in California will help you with these relays",
+
+	"warranty": {
+		"text": "Two Year Warranty",
+		"url": "https://www.temcocontent.com/attachments/temco_2yearwarranty.pdf"
+	},
+
+	"attributes": {
+		"Contact Rating": "10A @ 250VAC / 28VDC",
+		"contact Resistance": "50 m&#x03A9",
+		"Coil Voltage": "12 VDC",
+		"Pickup Voltage": "9.6 VDC",
+		"Release Voltage": "1.2 VDC",
+		"Coil Power": "0.9 Watts / 1.2 VA",
+		"Insulation Resistance": "500 m&#x03A9",
+		"Dielectric Strength": {
+			"Between open contacts": "1500 VAC",
+			"Between coil & contact": "1500VAC"
+		},
+		"Mechanical Cycle Life": "20,000 to 30,000",
+		"Electrical Cycle Life": "20,000 to 30,000",
+		"Temperature Range": "-104&#x00B0;F to +158&#x00B0;F",
+		"Weight": "1.15 oz",
+		"Dimensions": {
+			"url": "https://temcocontent.com/images/switches/CN0346_to_CN0481/ice_cube_relay_schematics.png"
+		}
+	},
+
+	"lotQuantity": {
+		"1": "CN0348",
+		"2": "CN0385",
+		"4": "CN0386",
+		"5": "CN0387",
+		"10": "CN0388",
+		"25": "CN0389",
+		"50": "CN0390",
+		"100": "CN0391"
+	},
+
+	"variants": [
+		"CN0348": {
+
+		},
+	]
+	
+}
